@@ -30,6 +30,6 @@ These are not hidden implementation completions:
 - The public webhook relay remains local-only. No `PAYPAL_WEBHOOK_ID` was configured by this release.
 - The existing hourly schedule `Automation_01635d3924948191971a67a2cb856d4c` still reads **disabled**. It was not replaced or duplicated.
 - Real multi-person payments, invoice deposit/balance/refund, connected supplier recovery, hosted restore and operational alerting remain verification/operations work.
-- The existing private [GitHub repository](https://github.com/Sammy-104/planrecover) is the full-source mirror. GitHub Pages cannot run this backend; a hosting move still requires the identity/data/secrets/jobs migration described in its hosting guide.
+- The existing private [GitHub repository](https://github.com/samuelrshaw/planrecover) is the full-source mirror. GitHub Pages cannot run this backend; a hosting move still requires the identity/data/secrets/jobs migration described in its hosting guide.
 
 Synced files under `sources/` were preserved. No new live payment, refund, invoice send, supplier booking, external notification or AWS inference was initiated by these checks.
